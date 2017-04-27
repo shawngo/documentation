@@ -7,7 +7,7 @@
 if [ "$CIRCLE_BRANCH" != "master" ] && [ "$CIRCLE_BRANCH" != "dev" ] && [ "$CIRCLE_BRANCH" != "test" ] && [ "$CIRCLE_BRANCH" != "live" ] && ! [[ $CIRCLE_BRANCH =~ (pull\/.*) ]]; then
   # Normalize branch name to adhere with Multidev requirements
   export normalize_branch="$CIRCLE_BRANCH"
-  export valid="^[-0-9a-z]" # allows digits 0-9, lower case a-z, and -
+  export valid="^[-0-9a-zA-Z]" # allows digits 0-9, lower/upper case a-z, and -
   if [[ $normalize_branch =~ $valid ]]; then
     export normalize_branch="${normalize_branch:0:11}"
     #Remove - to avoid failures
