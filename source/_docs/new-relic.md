@@ -7,19 +7,33 @@ categories: []
 [New Relic APM Pro](http://newrelic.com) offers a wide array of metrics that provide a nearly real-time look into the performance of a web application and is provided to all sites on Pantheon for free. Using New Relic not only makes it easy for you to monitor to your performance, but it can also speed up the support process by helping our support team visualize corresponding performance and symptoms.
 
 ## Activate New Relic APM Pro
-Select the **New Relic** tab on your Site Dashboard, and click **Activate New Relic Pro**. You can also use the [Terminus Omniscient](https://github.com/terminus-plugin-project/terminus-omniscient-plugin/) plugin to enable New Relic Pro for all sites you have access to by logging in to your Pantheon account and running `terminus omniscient`.
+1. Select the **New Relic** tab on your Site Dashboard, and click **Activate New Relic Pro**:
 
-Visit your site in the browser a couple of times to generate data in New Relic. After a few minutes pass, go to the New Relic workspace on your Dashboard, and click **Go to New Relic**.
+    ![Activate New Relic Pro](/source/docs/assets/images/dashboard/activate-new-relic.png)
+
+    You can also use the [Terminus Omniscient](https://github.com/terminus-plugin-project/terminus-omniscient-plugin/) plugin to enable New Relic Pro for all sites you have access to by logging in to your Pantheon account and running `terminus omniscient`.
+
+2. Even though there won't be data yet, you can click on **Go to New Relic** to go to the New Relic dashboard:
+
+    ![Link to New Relic](/source/docs/assets/images/dashboard/new-new-relic.png)
+
+    **Note:** The first time you go to your New Relic dashboard you'll be prompted with their Terms of Service (ToS). Be aware that at this point you are entering another company's web site and are bound by their ToS.
 
 New Relic is automatically enabled for all application servers added to the site, including Multidev environments.
 
-## Configure Ping Monitors for Availability
+## Configure Synthetics Ping Monitors for Availability
 New Relic provides a free availability monitoring service within their Synthetics tool suite at the Lite service level. This basic monitoring check sends a request to designated URLs from configured locations at given intervals and alerts you via email when a response fails. To configure this service:
 
-1. Click **New Relic** > **Go to New Relic**  from the target environment within the Site Dashboard on Pantheon.
-2. Select **Synthetics** from the menu bar at the top of the page.
-3. From the **Monitors** tab (default), click **Add new**, and enter the details for the URL you want to monitor.
-4. Select the locations you wish to check the site from. We recommend picking locations that correspond to your site's visitors to reduce the risk of false-positives due to long-distance networking snafus.
+1. The first time you open the New Relic dashboard, you'll be prompted to create a new service. Select **SYNTHETICS**:
+
+    ![New Relic First Page](/source/docs/assets/images/new-relic-first-time.png)
+
+    If this is not your first service on New Relic, select **Synthetics** from the menu bar at the top of the page, then click on the **Monitors** tab (default), and **Add new**
+    
+2. Enter the details for the URL you want to monitor, and select the locations you wish to check the site from. We recommend picking locations that correspond to your site's visitors to reduce the risk of false-positives due to long-distance networking snafus:
+
+    ![New Relic Synthetics Monitor](/source/docs/assets/images/new-relic-synthetics.png)
+
 5. Set the frequency for checks. We suggest 5 minutes.
 6. Provide an email address for notifications.
 7. Click **Create my monitor**.

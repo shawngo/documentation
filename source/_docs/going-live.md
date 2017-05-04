@@ -34,7 +34,7 @@ Schedule daily and weekly backups in case you need to revert your site content. 
 
 ## Monitoring Services
 
-Consider enabling [New Relic Pro](/docs/new-relic) monitoring to non-intrusively track the performance of your site; this is one of the first places Pantheon will look when there are performance concerns.
+Consider enabling [New Relic Pro](/docs/new-relic) monitoring to non-intrusively track the performance and uptime of your site; this is one of the first places Pantheon will look when there are performance concerns.
 
 [Pingdom](https://www.pingdom.com/) can also be used as an additional monitoring service to create site alerts for non-cached pages. This will help you determine if your site's backend is actually down.
 
