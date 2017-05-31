@@ -17,6 +17,7 @@ previouspage: Introduction
 editpath: 02-user-dashboard.md
 image: getting-started-Largethumb
 ---
+Test
 In this lesson, we’re going to explore the User Dashboard.
 
 **Watch the video:**
