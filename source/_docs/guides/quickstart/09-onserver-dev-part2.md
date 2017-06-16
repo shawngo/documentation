@@ -6,13 +6,13 @@ anchorid: onserver-dev-part2
 generator: pagination
 layout: guide
 pagination:
-    provider: data.gettingstartedpages
+    provider: data.quickstartpages
 use:
-    - gettingstartedpages
-permalink: docs/guides/getting-started/onserver-dev-part2/
-nexturl: getting-started/next-steps/
+    - quickstartpages
+permalink: docs/guides/quickstart/onserver-dev-part2/
+nexturl: quickstart/next-steps/
 nextpage: Next Steps
-previousurl: getting-started/onserver-dev-part1/
+previousurl: quickstart/onserver-dev-part1/
 previouspage: On-Server Dev, Part 1
 editpath: 09-onserver-dev-part2.md
 image: getting-started-Largethumb
@@ -25,7 +25,7 @@ In this lesson, we’re going to edit code directly. We’ll commit our edits to
 <p>To complete this lesson, you need a basic understanding of CSS. If necessary, ask a colleague for help, or feel free to skip this lesson altogether.  
 </p></div>
 
-If you haven’t added a new theme to your site, please return to the [previous lesson](/docs/guides/getting-started/onserver-dev-part1) and do so now.
+If you haven’t added a new theme to your site, please return to the [previous lesson](/docs/guides/quickstart/onserver-dev-part1) and do so now.
 
 1. Navigate to **<span class="glyphicons glyphicons-embed-close" aria-hidden="true"></span> Code** in the **<span class="glyphicons glyphicons-wrench" aria-hidden="true"></span> Dev** tab of your Site Dashboard. Confirm your Connection Mode is set to **SFTP**.
 

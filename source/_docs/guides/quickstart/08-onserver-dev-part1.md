@@ -6,13 +6,13 @@ anchorid: onserver-dev-part1
 generator: pagination
 layout: guide
 pagination:
-    provider: data.gettingstartedpages
+    provider: data.quickstartpages
 use:
-    - gettingstartedpages
-permalink: docs/guides/getting-started/onserver-dev-part1/
-nexturl: getting-started/onserver-dev-part2/
+    - quickstartpages
+permalink: docs/guides/quickstart/onserver-dev-part1/
+nexturl: quickstart/onserver-dev-part2/
 nextpage: On-Server Dev, Part 2
-previousurl: getting-started/connection-modes/
+previousurl: quickstart/connection-modes/
 previouspage: Connection Modes
 editpath: 08-onserver-dev-part1.md
 image: getting-started-Largethumb

@@ -6,13 +6,13 @@ anchorid: site-dashboard
 generator: pagination
 layout: guide
 pagination:
-    provider: data.gettingstartedpages
+    provider: data.quickstartpages
 use:
-    - gettingstartedpages
-permalink: docs/guides/getting-started/site-dashboard/
-nexturl: getting-started/create-test-live/
+    - quickstartpages
+permalink: docs/guides/quickstart/site-dashboard/
+nexturl: quickstart/create-test-live/
 nextpage: Create Test & Live
-previousurl: getting-started/create-new-site/
+previousurl: quickstart/create-new-site/
 previouspage: Create New Site
 editpath: 04-site-dashboard.md
 image: getting-started-Largethumb

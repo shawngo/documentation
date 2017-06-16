@@ -6,13 +6,13 @@ anchorid: create-test-live
 generator: pagination
 layout: guide
 pagination:
-    provider: data.gettingstartedpages
+    provider: data.quickstartpages
 use:
-    - gettingstartedpages
-permalink: docs/guides/getting-started/create-test-live/
-nexturl: getting-started/clone-live-to-dev/
+    - quickstartpages
+permalink: docs/guides/quickstart/create-test-live/
+nexturl: quickstart/clone-live-to-dev/
 nextpage: Clone Live to Dev
-previousurl: getting-started/site-dashboard/
+previousurl: quickstart/site-dashboard/
 previouspage: Site Dashboard
 editpath: 05-create-test-live.md
 image: getting-started-Largethumb
@@ -30,7 +30,7 @@ In this lesson, we’re going to to create our Test site and our Live site, whic
 <div class="alert alert-danger" role="alert">
   <h4 class="info">Warning</h4>
   <p>If you haven’t completed the installation of your Dev site, return to <a href=
-  "/docs/guides/getting-started/create-new-site">Create New Site</a>, and do this now, before proceeding.</p>
+  "/docs/guides/quickstart/create-new-site">Create New Site</a>, and do this now, before proceeding.</p>
 </div>
 
 1. Navigate to your Site Dashboard and click the **<span class="glyphicons glyphicons-equalizer" aria-hidden="true"></span> Test** tab. Here you’ll have access to your Test environment, but it hasn’t been created yet. Do this now by clicking **Create Test Environment**.

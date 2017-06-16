@@ -50,31 +50,31 @@ function setActivetrail() {
     if(document.location.href.indexOf(aaObj[i].href)>=0 ){
       aaObj[i].className='active-trail';
       if(/\/user-dashboard.*/.test(aaObj[i].href)>=1) {
-        $('#docs-guides-getting-started').removeClass('active-trail');
+        $('#docs-guides-quickstart').removeClass('active-trail');
       }
       if(/\/create-new-site.*/.test(aaObj[i].href)>=1) {
-        $('#docs-guides-getting-started').removeClass('active-trail');
+        $('#docs-guides-quickstart').removeClass('active-trail');
       }
       if(/\/site-dashboard.*/.test(aaObj[i].href)>=1) {
-        $('#docs-guides-getting-started').removeClass('active-trail');
+        $('#docs-guides-quickstart').removeClass('active-trail');
       }
       if(/\/create-test-live.*/.test(aaObj[i].href)>=1) {
-        $('#docs-guides-getting-started').removeClass('active-trail');
+        $('#docs-guides-quickstart').removeClass('active-trail');
       }
       if(/\/clone-live-to-dev.*/.test(aaObj[i].href)>=1) {
-        $('#docs-guides-getting-started').removeClass('active-trail');
+        $('#docs-guides-quickstart').removeClass('active-trail');
       }
       if(/\/connection-modes.*/.test(aaObj[i].href)>=1) {
-        $('#docs-guides-getting-started').removeClass('active-trail');
+        $('#docs-guides-quickstart').removeClass('active-trail');
       }
       if(/\/onserver-dev-part1.*/.test(aaObj[i].href)>=1) {
-        $('#docs-guides-getting-started').removeClass('active-trail');
+        $('#docs-guides-quickstart').removeClass('active-trail');
       }
       if(/\/onserver-dev-part2.*/.test(aaObj[i].href)>=1) {
-        $('#docs-guides-getting-started').removeClass('active-trail');
+        $('#docs-guides-quickstart').removeClass('active-trail');
       }
       if(/\/next-steps.*/.test(aaObj[i].href)>=1) {
-        $('#docs-guides-getting-started').removeClass('active-trail');
+        $('#docs-guides-quickstart').removeClass('active-trail');
       }
     }
   }
@@ -297,7 +297,7 @@ terminusCompareApp.filter('search', function() {
                   <div class="row sub-menu-bottom">
                       <div class="col-xs-12">
                         <li><a id="changelogs" href="/docs/changelog">Changelog</a></li>
-                        <li><a id="getting-started-guide" href="/docs/guides/getting-started">Getting Started Guide <span class="label label-info">NEW</span></a></li>
+                        <li><a id="quickstart-guide" href="/docs/guides/quickstart/">Quickstart Guide <span class="label label-info">NEW</span></a></li>
                         <li><a id="terminus" href="/docs/terminus">Terminus Manual</a></li>
                       </div>
 

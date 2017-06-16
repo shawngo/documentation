@@ -6,13 +6,13 @@ anchorid: clone-live-to-dev
 generator: pagination
 layout: guide
 pagination:
-    provider: data.gettingstartedpages
+    provider: data.quickstartpages
 use:
-    - gettingstartedpages
-permalink: docs/guides/getting-started/clone-live-to-dev/
-nexturl: getting-started/connection-modes/
+    - quickstartpages
+permalink: docs/guides/quickstart/clone-live-to-dev/
+nexturl: quickstart/connection-modes/
 nextpage: Connection Modes
-previousurl: getting-started/create-test-live/
+previousurl: quickstart/create-test-live/
 previouspage: Create Test & Live
 editpath: 06-clone-live-to-dev.md
 image: getting-started-Largethumb

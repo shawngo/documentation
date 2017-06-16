@@ -6,13 +6,13 @@ anchorid: connection-modes
 generator: pagination
 layout: guide
 pagination:
-    provider: data.gettingstartedpages
+    provider: data.quickstartpages
 use:
-    - gettingstartedpages
-permalink: docs/guides/getting-started/connection-modes/
-nexturl: getting-started/onserver-dev-part1/
+    - quickstartpages
+permalink: docs/guides/quickstart/connection-modes/
+nexturl: quickstart/onserver-dev-part1/
 nextpage: On-Server Dev, Part 1
-previousurl: getting-started/clone-live-to-dev/
+previousurl: quickstart/clone-live-to-dev/
 previouspage: Clone Live to Dev
 editpath: 07-connection-modes.md
 image: getting-started-Largethumb

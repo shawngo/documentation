@@ -6,13 +6,13 @@ layout: guide
 guidepage: true
 generator: pagination
 pagination:
-    provider: data.gettingstartedpages
+    provider: data.quickstartpages
 use:
-    - gettingstartedpages
-permalink: docs/guides/getting-started/user-dashboard/
-nexturl: getting-started/create-new-site/
+    - quickstartpages
+permalink: docs/guides/quickstart/user-dashboard/
+nexturl: quickstart/create-new-site/
 nextpage: Create New Site
-previousurl: getting-started/
+previousurl: quickstart/
 previouspage: Introduction
 editpath: 02-user-dashboard.md
 image: getting-started-Largethumb

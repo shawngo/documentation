@@ -6,13 +6,13 @@ anchorid: create-new-site
 generator: pagination
 layout: guide
 pagination:
-    provider: data.gettingstartedpages
+    provider: data.quickstartpages
 use:
-    - gettingstartedpages
-permalink: docs/guides/getting-started/create-new-site/
-nexturl: getting-started/site-dashboard/
+    - quickstartpages
+permalink: docs/guides/quickstart/create-new-site/
+nexturl: quickstart/site-dashboard/
 nextpage: Site Dashboard
-previousurl: getting-started/user-dashboard/
+previousurl: quickstart/user-dashboard/
 previouspage: User Dashboard
 editpath: 03-create-new-site.md
 image: getting-started-Largethumb
