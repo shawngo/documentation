@@ -31,7 +31,7 @@ The Origin Shield helps optimize cache hits by checking a single, central pool o
 ## Global Points of Presence Locations
 **TODO**: Work with design team to replace graphic
 
-![Global CDN POP](/source/docs/assets/images/pop.jpg)
+![Global CDN POP](/source/docs/assets/images/pop.png)
 
 If the nearest POP does not have a cached version of the response, the request is routed to the application running on Pantheon and gets cached on it’s way back to the browser.
 
