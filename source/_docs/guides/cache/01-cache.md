@@ -28,7 +28,7 @@ Pantheon’s Global Edge provides an out-of-the box Content Delivery Network (CD
 ## Origin Shield
 The Origin Shield helps optimize cache hits by checking a single, central pool of cached content - instead of checking one of many caching endpoints. This in an improvement from our legacy edge service, which used multiple Varnish servers increasing the potential for multiple cache misses in a row.
 
-## Points of Presence Locations
+## Points of Presence 
 <!-- Nav tabs -->
 <ul class="nav nav-tabs" role="tablist">
   <li id="globaltab1" role="presentation" class="active"><a href="#global" aria-controls="global" role="tab" data-toggle="tab">Global</a></li>
@@ -44,15 +44,17 @@ The Origin Shield helps optimize cache hits by checking a single, central pool o
 </div>
 <div role="tabpanel" class="tab-pane" id="na" markdown="1">
 ![North America CDN Map](/source/docs/assets/images/cdn-map-na.png)
+<p class="pop-desc">Ashburn, Atlanta, Boston, Chicago, Dallas, Denver, Los Angeles, Miami, Minneapolis, Montreal, New York, San Jose, Seattle, Toronto</p>
 </div>
 <div role="tabpanel" class="tab-pane" id="eu" markdown="1">
-![North America CDN Map](/source/docs/assets/images/cdn-map-eu.png)
+![Europe CDN Map](/source/docs/assets/images/cdn-map-eu.png)
+<p class="pop-desc">Amsterdam, Franfurt 2X, London 2X, Madrid, Paris, Stockholm</p>
 </div>
 <div role="tabpanel" class="tab-pane" id="asia" markdown="1">
-![North America CDN Map](/source/docs/assets/images/cdn-map-asia.png)
+![Asia CDN Map](/source/docs/assets/images/cdn-map-asia.png)
+<p class="pop-desc">Dubai, Hong Kong, Osaka, Singapore, Tokyo</p>
 </div>
-</div><br>
-
+</div>
 If the nearest POP does not have a cached version of the response, the request is routed to the application running on Pantheon and gets cached on it’s way back to the browser.
 
 ## Advanced Page Caching?

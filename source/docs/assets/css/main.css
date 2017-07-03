@@ -1106,6 +1106,11 @@ span#changelog-rsaquo {
 .no-border {
   border: none!important;
 }
+.pop-desc {
+  font-size: smaller;
+  color: gray;
+  margin-top:-30px;
+}
 /*Responsive layout*/
 @media (max-width: 950px){
   .pio-docs-nav .navbar-nav > li > a {
