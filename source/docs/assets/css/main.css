@@ -1103,7 +1103,9 @@ span#changelog-rsaquo {
   border-radius: 4px;
   margin-bottom: 20px;
 }
-
+.no-border {
+  border: none!important;
+}
 /*Responsive layout*/
 @media (max-width: 950px){
   .pio-docs-nav .navbar-nav > li > a {

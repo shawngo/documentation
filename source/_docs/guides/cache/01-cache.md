@@ -28,9 +28,30 @@ Pantheon’s Global Edge provides an out-of-the box Content Delivery Network (CD
 ## Origin Shield
 The Origin Shield helps optimize cache hits by checking a single, central pool of cached content - instead of checking one of many caching endpoints. This in an improvement from our legacy edge service, which used multiple Varnish servers increasing the potential for multiple cache misses in a row.
 
-## Global Points of Presence Locations
+## Points of Presence Locations
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+  <li id="globaltab1" role="presentation" class="active"><a href="#global" aria-controls="global" role="tab" data-toggle="tab">Global</a></li>
+  <li id="natab1" role="presentation"><a href="#na" aria-controls="na" role="tab" data-toggle="tab">North America</a></li>
+  <li id="eutab1" role="presentation"><a href="#eu" aria-controls="eu" role="tab" data-toggle="tab">Europe</a></li>
+  <li id="asiatab1" role="presentation"><a href="#asia" aria-controls="asia" role="tab" data-toggle="tab">Asia</a></li>
+</ul>
 
-![Global CDN POP](/source/docs/assets/images/cdn-map.png)
+<!-- Tab panes -->
+<div class="tab-content no-border">
+<div role="tabpanel" class="tab-pane active" id="global" markdown="1">
+![Global CDN Map](/source/docs/assets/images/cdn-map.png)
+</div>
+<div role="tabpanel" class="tab-pane" id="na" markdown="1">
+![North America CDN Map](/source/docs/assets/images/cdn-map-na.png)
+</div>
+<div role="tabpanel" class="tab-pane" id="eu" markdown="1">
+![North America CDN Map](/source/docs/assets/images/cdn-map-eu.png)
+</div>
+<div role="tabpanel" class="tab-pane" id="asia" markdown="1">
+![North America CDN Map](/source/docs/assets/images/cdn-map-asia.png)
+</div>
+</div><br>
 
 If the nearest POP does not have a cached version of the response, the request is routed to the application running on Pantheon and gets cached on it’s way back to the browser.
 
