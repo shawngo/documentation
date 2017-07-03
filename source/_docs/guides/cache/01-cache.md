@@ -29,9 +29,8 @@ Pantheon’s Global Edge provides an out-of-the box Content Delivery Network (CD
 The Origin Shield helps optimize cache hits by checking a single, central pool of cached content - instead of checking one of many caching endpoints. This in an improvement from our legacy edge service, which used multiple Varnish servers increasing the potential for multiple cache misses in a row.
 
 ## Global Points of Presence Locations
-**TODO**: Work with design team to replace graphic
 
-![Global CDN POP](/source/docs/assets/images/pop.png)
+![Global CDN POP](/source/docs/assets/images/cdn-map.png)
 
 If the nearest POP does not have a cached version of the response, the request is routed to the application running on Pantheon and gets cached on it’s way back to the browser.
 
