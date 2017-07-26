@@ -20,6 +20,7 @@ module.exports = function(grunt) {
           {expand: true, src: ['node_modules/angular-md/dist/angular-md.js'], dest: 'source/docs/assets/js/'}
         ],
       },
+      
     },
     css_url_replace: {
       options: {
